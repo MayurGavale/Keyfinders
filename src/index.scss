@@ -1,0 +1,22 @@
+html, body {
+    height: 100%; /* Allow full page height */
+    margin: 0; /* Remove default margins */
+    overflow-y: scroll; /* Enable vertical scrolling */
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  body {
+    font-family: "Lato", sans-serif;
+    /* Remove overflow: hidden to allow scrolling */
+  }
+  

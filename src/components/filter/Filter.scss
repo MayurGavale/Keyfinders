@@ -1,0 +1,73 @@
+.filter {
+  display: flex; /* Make the main container a flexbox */
+  flex-direction: column; /* Arrange elements horizontally */
+  gap: 10px; /* Spacing between filter sections */
+  background-color: white; /* Light gray background */
+  border-radius: 5px; /* Rounded corners for the entire filter component */
+ /* Padding for content within the filter */
+
+  h1 {
+    font-weight: 500;
+    font-size: 40px; /* Adjust heading size as needed */
+    color: #333; /* Darker text color for headings */
+    margin-bottom: 10px; /* Space between heading and filters */
+    /* Center the heading vertically */
+  }
+
+  .item {
+    display: flex; /* Arrange individual filter items horizontally */
+    flex-direction: column;
+    gap: 2px; /* Spacing between filter items */
+     /* Vertically align labels and inputs */
+
+
+    label {
+      font-size: 10px; /* Adjust label size */
+      margin-right: 5px; /* Space between label and input */
+      display: inline-block; /* Labels on the same line as inputs */
+      font-weight: bold; /* Bold font weight for labels */
+      /* Gray text color for labels */
+    }
+
+    .input,
+    select
+     {  /* Include .search here */
+      width: 100px; /* Adjust input/select width */
+      padding: 10px; /* Adjust padding for input/select */
+      border: 1px solid #ddd; /* Light gray border */
+      border-radius: 5px; /* Rounded corners for input/select */
+      font-size: 14px; /* Adjust font size for input/select */
+      box-sizing: border-box; /* Override browser defaults */
+    }
+  }
+
+  .top{
+    .input{
+      width: 150%;
+    }
+  }
+  .bottom{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    
+    
+
+    button{
+      height: 50px;
+       width: 100px;
+       padding: 10px;
+       border: none;
+       
+       cursor: pointer;
+       background-color: aqua;
+
+       img{
+        width: 30px;
+        height: 30px;
+       }
+    }
+  }
+
+  
+}
